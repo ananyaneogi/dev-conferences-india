@@ -7,12 +7,11 @@ const HeaderStyle = styled.header`
   position: relative;
     background: background: rgb(142,156,255);
     background: linear-gradient(45deg, rgba(142,136,255,1) 0%, rgba(0,31,255,1) 100%);
-    height: 260px;
 
     svg.decoration {
         fill: #fff;
-        position: absolute;
-        top: 80px;
+        position: relative;
+        top: 10px;
         z-index: 0;
     }
 `
@@ -27,6 +26,10 @@ const Content = styled.div`
 
     .icon-notification {
         width: 65px;
+    }
+
+    @media(max-width: 768px) {
+        flex-direction: column;
     }
 
     @media(max-width: 500px) {
@@ -68,6 +71,7 @@ const Header = ({ siteTitle, description }) => (
                     <Link
                         to="/"
                         style={{
+                            fontSize: `2rem`,
                             color: `white`,
                             textDecoration: `none`,
                         }}
