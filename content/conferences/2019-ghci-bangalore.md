@@ -1,6 +1,6 @@
 ---
 title: The Grace Hopper Celebration India
-start_date: 2019-11-09
+start_date: 2019-11-06
 end_date: 2019-11-08
 location: Bangalore International Exhibition Center (BIEC), Bangalore
 url: https://ghcindia.anitab.org/
